@@ -1,10 +1,10 @@
 NAME ?=talos-orangepi5
 
 REGISTRY ?= ghcr.io
-USERNAME ?= schneid-l
+USERNAME ?= cleasure
 REGISTRY_AND_USERNAME ?= $(REGISTRY)/$(USERNAME)
 SOURCE ?= https://github.com/${USERNAME}/${NAME}.git
-AUTHORS ?= Louis S. <louis@schne.id>
+AUTHORS ?= cleasure
 PUSH ?= false
 ARTIFACTS_FOLDER ?= ./out
 
